@@ -1,11 +1,7 @@
 spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Nilpatil352/employee-config-server.git
-          username: Nilpatil352
-          password: nil@3378
+  application:
+    name: Employee-Producer
+  
 eureka:
   client:
     serviceUrl:
